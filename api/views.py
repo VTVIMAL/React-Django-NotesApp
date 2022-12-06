@@ -10,7 +10,7 @@ from api.utils import createNote, deleteNote, getNoteDetail, getNotesList, updat
 
 @api_view(['GET'])
 def getRoutes(request):
-
+ # dummy data
     routes = [
         {
             'Endpoint': '/notes/',
